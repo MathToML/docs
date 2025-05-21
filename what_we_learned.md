@@ -14,10 +14,8 @@ magick 원본파일.png -trim +repage 결과파일.png
 
 #### 예시
 ```sh
-magick /Users/edward/Downloads/gospel_assets_images/black.png -trim +repage /Users/edward/Downloads/gospel_assets_images/black_trimmed.png
-magick /Users/edward/Downloads/gospel_assets_images/green.png -trim +repage /Users/edward/Downloads/gospel_assets_images/green_trimmed.png
-magick /Users/edward/Downloads/gospel_assets_images/red.png -trim +repage /Users/edward/Downloads/gospel_assets_images/red_trimmed.png
-magick /Users/edward/Downloads/gospel_assets_images/white.png -trim +repage /Users/edward/Downloads/gospel_assets_images/white_trimmed.png
+magick black.png -trim +repage black_trimmed.png
+magick green.png -trim +repage green_trimmed.png
 ```
 
 - 여러 파일을 한 번에 처리하려면 각 파일마다 명령어를 반복 실행해야 함.
