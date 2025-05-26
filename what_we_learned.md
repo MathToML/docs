@@ -21,6 +21,16 @@ magick green.png -trim +repage green_trimmed.png
 - 여러 파일을 한 번에 처리하려면 각 파일마다 명령어를 반복 실행해야 함.
 - ImageMagick이 설치되어 있어야 한다.
 
+## VS code reset
+환경설정정보는 따로 저장되므로 아래디렉토리를 지워야 리셋된다.
+```
+~/Library/Application Support/Code
+```
+terminal에서는 빈 칸을 escape해야 하므로
+```
+rm -R ~/Library/Application\ Support/Code
+```
+
 ---
 
 ## 이 파일을 업데이트하는 법
